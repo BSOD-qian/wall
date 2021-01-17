@@ -14,7 +14,9 @@
     <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 </head>
 
-<body>
+<body background="./bg.png" style="background-repeat:no-repeat ;
+background-size:100% 100%;
+background-attachment: fixed;">
 
     <div class="container">
         <h1 style="text-align: center;color: white;">告白墙</h1>
@@ -30,7 +32,7 @@
             owner: 'BSOD-qian',
             admin: ['BSOD-qian'],
             id: location.pathname,      // Ensure uniqueness and length less than 50
-            distractionFreeMode: false  // Facebook-like distraction free mode
+            distractionFreeMode: true  // Facebook-like distraction free mode
         })
 
         gitalk.render('gitalk-container')
