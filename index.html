@@ -12,6 +12,18 @@
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
     <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <!--MDUI-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+  integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw"
+  crossorigin="anonymous"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+  integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
+  crossorigin="anonymous"
+></script>
 </head>
 
 <body background="./bg.jpg" style="background-repeat:no-repeat ;
@@ -19,7 +31,7 @@ background-size:100% 100%;
 background-attachment: fixed;">
 
     <div class="container">
-        <h1 style="text-align: center;color: black;">告白墙</h1>
+        <h1 style="text-align: center;color: black;">告白墙<button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple" mdui-tooltip="{content: 'Beta测试'}"><i class="mdui-icon material-icons">info_outline</i></button></h1>
         <div class="bg">
             <div id="gitalk-container" style="margin : 5px;"></div>
         </div>
@@ -37,6 +49,7 @@ background-attachment: fixed;">
 
         gitalk.render('gitalk-container')
     </script>
+    <footer>&copy;2021 BSOD-qian<br/>background by @(￣V￣)</footer>
 </body>
 
 </html>

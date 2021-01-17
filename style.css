@@ -5,3 +5,13 @@ backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
 }
+footer {
+    text-align: center;
+    background-color: #4f4f4f;
+    color: #dfdfdf;
+    font-family: "santi";
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    line-height: 25px;
+}
